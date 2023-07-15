@@ -99,6 +99,7 @@ ul {
     cursor: pointer;
     overflow: hidden;
     margin: 1%;
+    margin-right: 3%;
 }
 
 .sidebar_toggler span {

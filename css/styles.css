@@ -40,6 +40,20 @@ th {
   background-color: #f2f2f2;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 100px; /* Mengatur margin bawah agar konten tidak tertutup oleh header */
+  padding: 20px;
+}
+
 /* END */
 
 .nav-container {
@@ -3874,9 +3888,8 @@ textarea.form-control-lg {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   display: flex;
-  flex-wrap: inherit;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
@@ -3935,9 +3948,11 @@ textarea.form-control-lg {
   line-height: 1;
   color: var(--bs-navbar-color);
   background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
-  border-radius: var(--bs-navbar-toggler-border-radius);
+  /* border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color); */
+  /* border-radius: var(--bs-navbar-toggler-border-radius); */
   transition: var(--bs-navbar-toggler-transition);
+  padding-left: 0px;
+  left: 0px;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -11124,7 +11139,7 @@ html {
 }
 .portfolio .portfolio-item {
   cursor: pointer;
-  position: relative;
+  position: inherit;
   display: block;
   max-width: 25rem;
   border-radius: 0.5rem;

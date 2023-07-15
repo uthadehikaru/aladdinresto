@@ -89,7 +89,7 @@ ul {
 
 /*---- Sidebar-Toggler ----*/
 .sidebar_toggler {
-    position: fixed;
+    position: unset;
     right: 3vw;
     width: 1.75rem;
     height: 1.3rem;
@@ -98,6 +98,7 @@ ul {
     justify-content: space-between;
     cursor: pointer;
     overflow: hidden;
+    margin: 1%;
 }
 
 .sidebar_toggler span {

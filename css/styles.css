@@ -11079,6 +11079,21 @@ html {
   color: #6c757d;
 }
 
+.txt {
+  /* padding-top: calc(6rem + 74px); */
+  padding-bottom: 6rem;
+}
+.txt .txt-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.txt .txt-subheading {
+  font-size: 1.25rem;
+}
+.txt .txt-avatar {
+  width: 15rem;
+}
+
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
